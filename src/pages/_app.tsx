@@ -23,11 +23,11 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
-        <title>{path} | J. Sousa Cleaning Service</title>
+        <title>{path} | Template for Dev</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="description" content="J. Sousa Cleaning Service" />
+        <meta name="description" content="Template for dev" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;600;800&display=swap"
