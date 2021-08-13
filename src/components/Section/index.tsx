@@ -2,13 +2,14 @@ import { ReactNode } from 'react'
 import * as S from './styles'
 
 type Props = {
+  bgColor?: string
   children: ReactNode
   isFluid?: boolean
   classContainer?: string
 }
 
-const Container = ({ children, isFluid, classContainer }: Props) => (
-  <S.ContainerSection>
+const Section = ({ bgColor, children, isFluid, classContainer }: Props) => (
+  <S.Section className={`${bgColor && `bg-${bgColor}`}`}>
     <div
       className={`container${isFluid ? '-fluid' : ''}${
         classContainer ? ` ${classContainer}` : ''
@@ -16,7 +17,7 @@ const Container = ({ children, isFluid, classContainer }: Props) => (
     >
       <div className="row">{children}</div>
     </div>
-  </S.ContainerSection>
+  </S.Section>
 )
 
-export default Container
+export default Section
