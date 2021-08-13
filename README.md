@@ -1,1 +1,4 @@
-<h1 style="text-align: center">🔹 Hex SB B5 💦</h1>
+<h1 style="text-align: center">✨Next.js Storybook Bootstrap 5</h1>
+
+```
+yarn create next-app -e
